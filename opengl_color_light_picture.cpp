@@ -226,15 +226,20 @@ int main() {
         //设置各个光照的强度
 //        lightingShader.setVec3("light.ambient", ambientColor);
 //        lightingShader.setVec3("light.diffuse", diffuseColor);
-        lightingShader.setVec3("light.ambient", 0.2f, 0.2f, 0.2f);
-        lightingShader.setVec3("light.diffuse", 0.5f, 0.5f, 0.5f);
+        lightingShader.setVec3("light.ambient", 0.1f, 0.1f, 0.1f);
+        lightingShader.setVec3("light.diffuse", 0.8f, 0.8f, 0.8f);
         lightingShader.setVec3("light.specular", 1.0f, 1.0f, 1.0f);//镜面反射
-        lightingShader.setVec3("light.direction", -0.2f, -1.0f, -0.3f);//定向光
-        lightingShader.setVec3("light.position", lightPos);//光源位置
+//        lightingShader.setVec3("light.direction", -0.2f, -1.0f, -0.3f);//定向光
+//        lightingShader.setVec3("light.position", lightPos);//点光源位置
+        //聚光灯
+        lightingShader.setVec3("light.direction", camera.Position);//摄像机位置就是光源的来源
+        lightingShader.setVec3("light.position", camera.Front);//聚光灯正前方
+        lightingShader.setFloat("light.cutoff", glm::cos(glm::radians(12.5f)));//聚光灯的切光角
 
-        lightingShader.setFloat("light.constant", 1.0f);
-        lightingShader.setFloat("light.linear", 0.09f);
-        lightingShader.setFloat("light.quadratic", 0.032f);
+        //光的衰减参数
+//        lightingShader.setFloat("light.constant", 1.0f);
+//        lightingShader.setFloat("light.linear", 0.09f);
+//        lightingShader.setFloat("light.quadratic", 0.032f);
 
 
         lightingShader.setInt("material.diffuse", 0);//绑定纹理?用0即可，0对应GL_TEXTURE0
