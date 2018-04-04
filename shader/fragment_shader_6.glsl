@@ -81,5 +81,6 @@ void main() {
        vec3 result = ambient + diffuse + specular ;
        //混合两个光照颜色
        FragColor = vec4(result, 1.0);
+       //aaa
 
 }
