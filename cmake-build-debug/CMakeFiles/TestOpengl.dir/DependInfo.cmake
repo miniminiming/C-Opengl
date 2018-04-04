@@ -13,7 +13,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/cl_workspace/TestOpengl/opengl_color_light_picture.cpp" "D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj"
+  "D:/cl_workspace/TestOpengl/opengl_multi_light.cpp" "D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj"
   "D:/cl_workspace/TestOpengl/utils/Shader.cpp" "D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/TestOpengl.dir/utils/Shader.cpp.obj"
   "D:/cl_workspace/TestOpengl/utils/stb_image.cpp" "D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/TestOpengl.dir/utils/stb_image.cpp.obj"
   )

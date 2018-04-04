@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj"
+  "CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj"
   "CMakeFiles/TestOpengl.dir/utils/glad.c.obj"
   "CMakeFiles/TestOpengl.dir/utils/Shader.cpp.obj"
   "CMakeFiles/TestOpengl.dir/utils/stb_image.cpp.obj"

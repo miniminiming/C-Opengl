@@ -13,9 +13,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b28fb30-a76f-4dd5-8a12-bc944d517681" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/opengl_multi_light.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shader/fragment_shader_7.glsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shader/vertex_shader_7.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/objects.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/TestOpengl.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/TestOpengl.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opengl_color_light_picture.cpp" afterPath="$PROJECT_DIR$/opengl_color_light_picture.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shader/fragment_shader_6.glsl" afterPath="$PROJECT_DIR$/shader/fragment_shader_6.glsl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/DependInfo.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/build.make" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/cmake_clean.cmake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/objects1.rsp" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/objects1.rsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/TestOpengl.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/TestOpengl.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,31 +42,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="opengl_color_light_picture.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/opengl_color_light_picture.cpp">
+      <file leaf-file-name="opengl_multi_light.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/opengl_multi_light.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="236" column="44" lean-forward="false" selection-start-line="236" selection-start-column="44" selection-end-line="236" selection-end-column="44" />
+            <state relative-caret-position="240">
+              <caret line="281" column="57" lean-forward="false" selection-start-line="281" selection-start-column="57" selection-end-line="281" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_shader_6.glsl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shader/fragment_shader_6.glsl">
+      <file leaf-file-name="fragment_shader_7.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shader/fragment_shader_7.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+            <state relative-caret-position="-764">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vertex_shader_6.glsl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shader/vertex_shader_6.glsl">
+      <file leaf-file-name="vertex_shader_7.glsl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shader/vertex_shader_7.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="291">
+              <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -72,13 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SOURCE_FILES</find>
-      <find>SUMMARY_DEBUG_LIBS</find>
-      <find>glBindVertexArray</find>
-      <find>Shader_Dir</find>
-      <find>800</find>
-      <find>glActiveTexture</find>
-      <find>shader</find>
       <find>shader.use()</find>
       <find>ourTexture</find>
       <find>projection</find>
@@ -100,11 +104,20 @@
       <find>nrChannels</find>
       <find>lightPos</find>
       <find>attenuation</find>
-      <find>emission</find>
       <find>Front</find>
+      <find>emission</find>
+      <find>material</find>
+      <find>light</find>
+      <find>D:\\cl_workspace\\TestOpengl</find>
+      <find>[1]</find>
+      <find>CalcPointLight</find>
+      <find>viewPos</find>
+      <find>pointLights</find>
     </findStrings>
     <replaceStrings>
       <replace>_6</replace>
+      <replace>..</replace>
+      <replace>[&quot; + std::to_string(i) + &quot;]</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -140,9 +153,11 @@
         <option value="$PROJECT_DIR$/shader/fragment_shader_5.glsl" />
         <option value="$PROJECT_DIR$/shader/vertex_shader_6.glsl" />
         <option value="$PROJECT_DIR$/opengl_color_light.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/opengl_color_light_picture.cpp" />
         <option value="$PROJECT_DIR$/shader/fragment_shader_6.glsl" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/shader/fragment_shader_7.glsl" />
+        <option value="$PROJECT_DIR$/opengl_multi_light.cpp" />
       </list>
     </option>
   </component>
@@ -159,7 +174,9 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -256,9 +273,9 @@
       <recent name="D:\cl_workspace\TestOpengl\utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\cl_workspace\TestOpengl\resource" />
       <recent name="D:\cl_workspace\TestOpengl\shader" />
       <recent name="D:\cl_workspace\TestOpengl" />
+      <recent name="D:\cl_workspace\TestOpengl\resource" />
       <recent name="D:\cl_workspace\TestOpengl\utils" />
       <recent name="D:\cl_workspace\TestOpengl\cmake-build-debug\shader" />
     </key>
@@ -467,7 +484,7 @@
       <workItem from="1521700259255" duration="11983000" />
       <workItem from="1521797746015" duration="1514000" />
       <workItem from="1522042369423" duration="23790000" />
-      <workItem from="1522198732279" duration="71832000" />
+      <workItem from="1522198732279" duration="79902000" />
     </task>
     <task id="LOCAL-00001" summary="添加定向光源和点光源，点光源其实之前就有的，之前一直用的就是点光源">
       <created>1522804700404</created>
@@ -490,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522813287966</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="给聚光灯添加一个内外光切的光度衰减效果">
+      <created>1522822042615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522822042615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151978000" />
+    <option name="totallyTimeSpent" value="160048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,7 +537,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4982639" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3732639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18256333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -562,7 +586,8 @@
     <MESSAGE value="添加聚光灯" />
     <MESSAGE value="添加聚光灯，但是看起来不明显" />
     <MESSAGE value="修复聚光灯显示不对的问题，因为我把这个light.position和light.direction参数弄反了" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复聚光灯显示不对的问题，因为我把这个light.position和light.direction参数弄反了" />
+    <MESSAGE value="给聚光灯添加一个内外光切的光度衰减效果" />
+    <option name="LAST_COMMIT_MESSAGE" value="给聚光灯添加一个内外光切的光度衰减效果" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,29 +596,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/Shader.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/opengl_shader_glsl.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -844,14 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/stb_image.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -883,14 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shader/vertex_shader_6.glsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/Camera.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -901,16 +887,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/opengl_color_light_picture.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="236" column="44" lean-forward="false" selection-start-line="236" selection-start-column="44" selection-end-line="236" selection-end-column="44" />
+        <state relative-caret-position="-215">
+          <caret line="225" column="19" lean-forward="true" selection-start-line="225" selection-start-column="19" selection-end-line="225" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shader/fragment_shader_6.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        <state relative-caret-position="-192">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shader/vertex_shader_6.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shader/vertex_shader_7.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shader/fragment_shader_7.glsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-764">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opengl_multi_light.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="281" column="57" lean-forward="false" selection-start-line="281" selection-start-column="57" selection-end-line="281" selection-end-column="57" />
           <folding />
         </state>
       </provider>

@@ -85,7 +85,7 @@
 		<Unit filename="D:/cl_workspace/TestOpengl">
 			<Option target="TestOpengl"/>
 		</Unit>
-		<Unit filename="D:/cl_workspace/TestOpengl/opengl_color_light_picture.cpp">
+		<Unit filename="D:/cl_workspace/TestOpengl/opengl_multi_light.cpp">
 			<Option target="TestOpengl"/>
 		</Unit>
 		<Unit filename="D:/cl_workspace/TestOpengl/utils/Camera.h">

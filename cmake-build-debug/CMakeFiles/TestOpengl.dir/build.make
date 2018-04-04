@@ -56,28 +56,28 @@ include CMakeFiles/TestOpengl.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/TestOpengl.dir/flags.make
 
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj: CMakeFiles/TestOpengl.dir/flags.make
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj: ../opengl_color_light_picture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cl_workspace\TestOpengl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestOpengl.dir\opengl_color_light_picture.cpp.obj -c D:\cl_workspace\TestOpengl\opengl_color_light_picture.cpp
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj: CMakeFiles/TestOpengl.dir/flags.make
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj: ../opengl_multi_light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\cl_workspace\TestOpengl\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TestOpengl.dir\opengl_multi_light.cpp.obj -c D:\cl_workspace\TestOpengl\opengl_multi_light.cpp
 
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cl_workspace\TestOpengl\opengl_color_light_picture.cpp > CMakeFiles\TestOpengl.dir\opengl_color_light_picture.cpp.i
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cl_workspace\TestOpengl\opengl_multi_light.cpp > CMakeFiles\TestOpengl.dir\opengl_multi_light.cpp.i
 
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cl_workspace\TestOpengl\opengl_color_light_picture.cpp -o CMakeFiles\TestOpengl.dir\opengl_color_light_picture.cpp.s
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cl_workspace\TestOpengl\opengl_multi_light.cpp -o CMakeFiles\TestOpengl.dir\opengl_multi_light.cpp.s
 
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.requires:
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.requires:
 
-.PHONY : CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.requires
+.PHONY : CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.requires
 
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.provides: CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.provides.build
-.PHONY : CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.provides
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.provides: CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.provides.build
+.PHONY : CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.provides
 
-CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.provides.build: CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj
+CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.provides.build: CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj
 
 
 CMakeFiles/TestOpengl.dir/utils/glad.c.obj: CMakeFiles/TestOpengl.dir/flags.make
@@ -154,7 +154,7 @@ CMakeFiles/TestOpengl.dir/utils/stb_image.cpp.obj.provides.build: CMakeFiles/Tes
 
 # Object files for target TestOpengl
 TestOpengl_OBJECTS = \
-"CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj" \
+"CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj" \
 "CMakeFiles/TestOpengl.dir/utils/glad.c.obj" \
 "CMakeFiles/TestOpengl.dir/utils/Shader.cpp.obj" \
 "CMakeFiles/TestOpengl.dir/utils/stb_image.cpp.obj"
@@ -162,7 +162,7 @@ TestOpengl_OBJECTS = \
 # External object files for target TestOpengl
 TestOpengl_EXTERNAL_OBJECTS =
 
-TestOpengl.exe: CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj
+TestOpengl.exe: CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj
 TestOpengl.exe: CMakeFiles/TestOpengl.dir/utils/glad.c.obj
 TestOpengl.exe: CMakeFiles/TestOpengl.dir/utils/Shader.cpp.obj
 TestOpengl.exe: CMakeFiles/TestOpengl.dir/utils/stb_image.cpp.obj
@@ -178,7 +178,7 @@ CMakeFiles/TestOpengl.dir/build: TestOpengl.exe
 
 .PHONY : CMakeFiles/TestOpengl.dir/build
 
-CMakeFiles/TestOpengl.dir/requires: CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj.requires
+CMakeFiles/TestOpengl.dir/requires: CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj.requires
 CMakeFiles/TestOpengl.dir/requires: CMakeFiles/TestOpengl.dir/utils/glad.c.obj.requires
 CMakeFiles/TestOpengl.dir/requires: CMakeFiles/TestOpengl.dir/utils/Shader.cpp.obj.requires
 CMakeFiles/TestOpengl.dir/requires: CMakeFiles/TestOpengl.dir/utils/stb_image.cpp.obj.requires

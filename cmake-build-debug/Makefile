@@ -122,32 +122,32 @@ TestOpengl/fast:
 	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/build
 .PHONY : TestOpengl/fast
 
-opengl_color_light_picture.obj: opengl_color_light_picture.cpp.obj
+opengl_multi_light.obj: opengl_multi_light.cpp.obj
 
-.PHONY : opengl_color_light_picture.obj
+.PHONY : opengl_multi_light.obj
 
 # target to build an object file
-opengl_color_light_picture.cpp.obj:
-	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj
-.PHONY : opengl_color_light_picture.cpp.obj
+opengl_multi_light.cpp.obj:
+	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.obj
+.PHONY : opengl_multi_light.cpp.obj
 
-opengl_color_light_picture.i: opengl_color_light_picture.cpp.i
+opengl_multi_light.i: opengl_multi_light.cpp.i
 
-.PHONY : opengl_color_light_picture.i
+.PHONY : opengl_multi_light.i
 
 # target to preprocess a source file
-opengl_color_light_picture.cpp.i:
-	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.i
-.PHONY : opengl_color_light_picture.cpp.i
+opengl_multi_light.cpp.i:
+	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.i
+.PHONY : opengl_multi_light.cpp.i
 
-opengl_color_light_picture.s: opengl_color_light_picture.cpp.s
+opengl_multi_light.s: opengl_multi_light.cpp.s
 
-.PHONY : opengl_color_light_picture.s
+.PHONY : opengl_multi_light.s
 
 # target to generate assembly for a file
-opengl_color_light_picture.cpp.s:
-	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.s
-.PHONY : opengl_color_light_picture.cpp.s
+opengl_multi_light.cpp.s:
+	$(MAKE) -f CMakeFiles\TestOpengl.dir\build.make CMakeFiles/TestOpengl.dir/opengl_multi_light.cpp.s
+.PHONY : opengl_multi_light.cpp.s
 
 utils/Shader.obj: utils/Shader.cpp.obj
 
@@ -239,9 +239,9 @@ help:
 	@echo ... TestOpengl
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... opengl_color_light_picture.obj
-	@echo ... opengl_color_light_picture.i
-	@echo ... opengl_color_light_picture.s
+	@echo ... opengl_multi_light.obj
+	@echo ... opengl_multi_light.i
+	@echo ... opengl_multi_light.s
 	@echo ... utils/Shader.obj
 	@echo ... utils/Shader.i
 	@echo ... utils/Shader.s

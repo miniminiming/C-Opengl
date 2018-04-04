@@ -17,8 +17,9 @@ set(Shader_Dir shader/)
 
 set(SOURCE_FILES
         ${Shader_Dir}
-        opengl_color_light_picture.cpp
-#                opengl_color_light.cpp
+        opengl_multi_light.cpp
+        #        opengl_color_light_picture.cpp
+        #        opengl_color_light.cpp
         #        opengl_matrix.cpp
         #        opengl_texture.cpp
         #        opengl_shader_glsl.cpp
