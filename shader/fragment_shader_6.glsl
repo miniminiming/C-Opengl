@@ -49,9 +49,7 @@ void main() {
 //        float attenuation = 1.0 / (light.constant + light.linear * distance + light.quadratic * distance * distance);
 
         vec3 lightDir = normalize(light.position - FragPos);
-        float theta = dot(lightDir,normalize(-light.direction));
 
-        if(theta > light.cutoff){//如果在聚光灯内，使用正常的光照
            //环境光,现在设置为与漫反射同样的值
            vec3 ambient = light.ambient * vec3(texture(material.diffuse, TexCoords));
 
@@ -83,13 +81,15 @@ void main() {
     //        diffuse *= attenuation;
     //        specular *= attenuation;
 
-
-            vec3 result = ambient + diffuse + specular ;
-            //混合两个光照颜色
-            FragColor = vec4(result, 1.0);
+        float theta = dot(lightDir,normalize(-light.direction));
+        vec3 result;
+        if(theta > light.cutoff){//如果在聚光灯内，使用正常的光照
+             result = ambient + diffuse + specular ;
         }else{
               //否则只显示环境光
-            FragColor = vec4(light.ambient * texture(material.diffuse, TexCoords).rgb, 1.0);
+             result =light.ambient * texture(material.diffuse, TexCoords).rgb;
         }
+            //混合光照颜色
+            FragColor = vec4(result, 1.0);
 
 }

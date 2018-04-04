@@ -13,6 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b28fb30-a76f-4dd5-8a12-bc944d517681" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/objects.a" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/objects.a" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TestOpengl.dir/opengl_color_light_picture.cpp.obj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/TestOpengl.exe" afterPath="$PROJECT_DIR$/cmake-build-debug/TestOpengl.exe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/opengl_color_light_picture.cpp" afterPath="$PROJECT_DIR$/opengl_color_light_picture.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shader/fragment_shader_6.glsl" afterPath="$PROJECT_DIR$/shader/fragment_shader_6.glsl" />
@@ -31,21 +34,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="opengl_color_light_picture.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="opengl_color_light_picture.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/opengl_color_light_picture.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="236" column="45" lean-forward="false" selection-start-line="236" selection-start-column="39" selection-end-line="236" selection-end-column="45" />
+            <state relative-caret-position="181">
+              <caret line="234" column="69" lean-forward="false" selection-start-line="234" selection-start-column="69" selection-end-line="234" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_shader_6.glsl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Camera.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/Camera.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="49" column="150" lean-forward="false" selection-start-line="49" selection-start-column="145" selection-end-line="49" selection-end-column="150" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_shader_6.glsl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shader/fragment_shader_6.glsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+            <state relative-caret-position="966">
+              <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -100,6 +113,7 @@
       <find>nrChannels</find>
       <find>lightPos</find>
       <find>attenuation</find>
+      <find>Front</find>
       <find>emission</find>
     </findStrings>
     <replaceStrings>
@@ -466,7 +480,7 @@
       <workItem from="1521700259255" duration="11983000" />
       <workItem from="1521797746015" duration="1514000" />
       <workItem from="1522042369423" duration="23790000" />
-      <workItem from="1522198732279" duration="68863000" />
+      <workItem from="1522198732279" duration="69350000" />
     </task>
     <task id="LOCAL-00001" summary="添加定向光源和点光源，点光源其实之前就有的，之前一直用的就是点光源">
       <created>1522804700404</created>
@@ -475,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522804700404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加聚光灯，但是看起来不明显">
+      <created>1522812767053</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1522812767053</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149009000" />
+    <option name="totallyTimeSpent" value="149496000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -494,13 +515,13 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4982639" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4982639" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3732639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18256333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -544,7 +565,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加定向光源和点光源，点光源其实之前就有的，之前一直用的就是点光源" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加定向光源和点光源，点光源其实之前就有的，之前一直用的就是点光源" />
+    <MESSAGE value="添加聚光灯" />
+    <MESSAGE value="添加聚光灯，但是看起来不明显" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加聚光灯，但是看起来不明显" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -760,16 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/Camera.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="42" column="16" lean-forward="true" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-          <folding>
-            <element signature="e#96#118#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shader/vertex_shader_4.glsl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -883,18 +896,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/opengl_color_light_picture.cpp">
+    <entry file="file://$PROJECT_DIR$/utils/Camera.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="236" column="45" lean-forward="false" selection-start-line="236" selection-start-column="39" selection-end-line="236" selection-end-column="45" />
+        <state relative-caret-position="160">
+          <caret line="49" column="150" lean-forward="false" selection-start-line="49" selection-start-column="145" selection-end-line="49" selection-end-column="150" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shader/fragment_shader_6.glsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
+        <state relative-caret-position="966">
+          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opengl_color_light_picture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="234" column="69" lean-forward="false" selection-start-line="234" selection-start-column="69" selection-end-line="234" selection-end-column="69" />
           <folding />
         </state>
       </provider>
