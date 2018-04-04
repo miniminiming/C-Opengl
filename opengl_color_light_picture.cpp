@@ -235,6 +235,7 @@ int main() {
         lightingShader.setVec3("light.position",  camera.Position);//摄像机位置就是光源的来源
         lightingShader.setVec3("light.direction",camera.Front);//聚光灯正前方
         lightingShader.setFloat("light.cutoff", glm::cos(glm::radians(12.5f)));//聚光灯的切光角
+        lightingShader.setFloat("light.outerCutOff", glm::cos(glm::radians(17.5f)));//聚光灯的切光角
 
         //光的衰减参数
 //        lightingShader.setFloat("light.constant", 1.0f);

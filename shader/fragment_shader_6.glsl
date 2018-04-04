@@ -23,6 +23,7 @@ struct Light {
     vec3 position;//光源位置,一般只有点光源用
     vec3 direction;//定向光
     float cutoff;//聚光灯的切光角，处于角度之外的东西都不会被照亮
+    float outerCutOff;//外光切
 
     vec3 ambient;
     vec3 diffuse;
@@ -48,7 +49,7 @@ void main() {
         //光的衰减公式,attenuation就是最后剩下的程度
 //        float attenuation = 1.0 / (light.constant + light.linear * distance + light.quadratic * distance * distance);
 
-        vec3 lightDir = normalize(light.position - FragPos);
+            vec3 lightDir = normalize(light.position - FragPos);
 
            //环境光,现在设置为与漫反射同样的值
            vec3 ambient = light.ambient * vec3(texture(material.diffuse, TexCoords));
@@ -81,15 +82,23 @@ void main() {
     //        diffuse *= attenuation;
     //        specular *= attenuation;
 
+        //设置一个聚光的衰减效果，需要设置内光切和外光切，在内外光切之间，光线往外逐渐衰减
         float theta = dot(lightDir,normalize(-light.direction));
-        vec3 result;
-        if(theta > light.cutoff){//如果在聚光灯内，使用正常的光照
-             result = ambient + diffuse + specular ;
-        }else{
-              //否则只显示环境光
-             result =light.ambient * texture(material.diffuse, TexCoords).rgb;
-        }
-            //混合光照颜色
-            FragColor = vec4(result, 1.0);
+        float epsilon = light.cutoff - light.outerCutOff;//内外光切cos值的差
+        //(theta - light.outerCutOff) / epsilon 就是光在内光切和外光切之间的衰减公式
+        float intensity = clamp((theta - light.outerCutOff) / epsilon,0.0,1.0);//clamp约束第一个参数值在0到1之间
+       //用衰减值来处理漫反射和镜面光
+        diffuse *= intensity;
+        specular *= intensity;
+        //当我用使用聚光的内光切和外光切对光线进行衰减时，就不用if else来区分了，超过外光切的公式已经把它弄成0了
+        vec3 result = ambient + diffuse + specular ;
+//        if(theta > light.cutoff){//如果在聚光灯内，使用正常的光照
+                //result = ambient + diffuse + specular ;
+//        }else{
+//              //否则只显示环境光
+//             result =light.ambient * texture(material.diffuse, TexCoords).rgb;
+//        }
+         //混合光照颜色
+        FragColor = vec4(result, 1.0);
 
 }
