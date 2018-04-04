@@ -1,0 +1,3 @@
+D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/TestOpengl.dir
+D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/cl_workspace/TestOpengl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
