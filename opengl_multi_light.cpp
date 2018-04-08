@@ -26,9 +26,6 @@ void mouse_callback(GLFWwindow *window, double xpos, double ypos);
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset);
 
 
-glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);//相机位置
-glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);//面对的方向,以这个为尺度更改观看的，其实就是单位速度
-glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);//头顶的方向
 
 float deltaTime = 0.0f; //当前帧与上一帧的时间差
 float lastFrameTime = 0.0f;//上一帧的时间
@@ -38,7 +35,6 @@ float lastY = 300;
 
 
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
-glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
 
 
 /**
@@ -81,6 +77,7 @@ int main() {
     const char *path2 = "..\\resource\\container2_specular.png";
     const char *path3 = "..\\resource\\matrix.jpg";
 //    //两个都要传递引用，这样函数更改的值才是上面的值
+    //我的loadTexture不好用的原因是没有区分图片格式，png的解析会有点问题
 //    loadTexture(&diffuseMap, path1);
 //    loadTexture(&diffuse_specular_Map, path2);
 //    loadTexture(&matrixMap, path3);
